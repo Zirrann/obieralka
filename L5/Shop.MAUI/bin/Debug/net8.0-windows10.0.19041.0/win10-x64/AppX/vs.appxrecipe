@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.shop.maui</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>25926251DAD128DA842019D747F91E374731449F7213F6D641C8E9B128CB5613</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.shop.maui_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.shop.maui_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-01T17:31:40.564</Modified>
+      <Modified>2024-12-02T08:21:34.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2024-12-01T16:41:33.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.runtimeconfig.json">
       <PackagePath>Shop.MAUI.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-01T14:11:05.318</Modified>
+      <Modified>2024-12-02T07:55:06.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.dll">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.dll">
       <PackagePath>Shop.MAUI.dll</PackagePath>
-      <Modified>2024-12-01T17:31:39.038</Modified>
+      <Modified>2024-12-02T08:21:33.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Shop.MAUI.exe</PackagePath>
-      <Modified>2024-12-01T17:31:39.140</Modified>
+      <Modified>2024-12-02T08:21:33.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-11-23T14:04:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-12-01T14:10:03.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-12-01T14:10:03.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-12-01T14:10:03.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-12-01T14:10:03.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-12-01T14:10:03.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-11-23T14:04:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-11-23T14:04:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-12-01T14:10:05.905</Modified>
+      <Modified>2024-12-01T20:52:44.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.896</Modified>
+      <Modified>2024-12-01T20:52:44.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.896</Modified>
+      <Modified>2024-12-01T20:52:44.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.896</Modified>
+      <Modified>2024-12-01T20:52:44.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.896</Modified>
+      <Modified>2024-12-01T20:52:44.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.896</Modified>
+      <Modified>2024-12-01T20:52:44.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.901</Modified>
+      <Modified>2024-12-01T20:52:44.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.901</Modified>
+      <Modified>2024-12-01T20:52:44.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.900</Modified>
+      <Modified>2024-12-01T20:52:44.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.901</Modified>
+      <Modified>2024-12-01T20:52:44.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.900</Modified>
+      <Modified>2024-12-01T20:52:44.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.902</Modified>
+      <Modified>2024-12-01T20:52:44.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.902</Modified>
+      <Modified>2024-12-01T20:52:44.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.901</Modified>
+      <Modified>2024-12-01T20:52:44.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.902</Modified>
+      <Modified>2024-12-01T20:52:44.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.902</Modified>
+      <Modified>2024-12-01T20:52:44.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.904</Modified>
+      <Modified>2024-12-01T20:52:44.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.904</Modified>
+      <Modified>2024-12-01T20:52:44.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.904</Modified>
+      <Modified>2024-12-01T20:52:44.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.904</Modified>
+      <Modified>2024-12-01T20:52:44.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.903</Modified>
+      <Modified>2024-12-01T20:52:44.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.899</Modified>
+      <Modified>2024-12-01T20:52:44.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.899</Modified>
+      <Modified>2024-12-01T20:52:44.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.898</Modified>
+      <Modified>2024-12-01T20:52:44.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.900</Modified>
+      <Modified>2024-12-01T20:52:44.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.900</Modified>
+      <Modified>2024-12-01T20:52:44.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.900</Modified>
+      <Modified>2024-12-01T20:52:44.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.899</Modified>
+      <Modified>2024-12-01T20:52:44.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.899</Modified>
+      <Modified>2024-12-01T20:52:44.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.897</Modified>
+      <Modified>2024-12-01T20:52:44.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.906</Modified>
+      <Modified>2024-12-01T20:52:44.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.905</Modified>
+      <Modified>2024-12-01T20:52:44.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.905</Modified>
+      <Modified>2024-12-01T20:52:44.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.905</Modified>
+      <Modified>2024-12-01T20:52:44.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-12-01T14:10:05.905</Modified>
+      <Modified>2024-12-01T20:52:44.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.deps.json">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shop.MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shop.MAUI.deps.json">
       <PackagePath>Shop.MAUI.deps.json</PackagePath>
-      <Modified>2024-12-01T16:41:33.113</Modified>
+      <Modified>2024-12-02T07:55:06.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jakub\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.41\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -601,9 +601,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shared\bin\Debug\Shared.dll">
+    <AppxPackagedFile Include="C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\bin\Debug\Shared.dll">
       <PackagePath>Shared.dll</PackagePath>
-      <Modified>2024-12-01T14:10:51.302</Modified>
+      <Modified>2024-12-02T08:21:11.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jakub\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

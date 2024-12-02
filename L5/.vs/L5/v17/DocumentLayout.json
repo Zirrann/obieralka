@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\",
+  "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0FCFE0C-A240-45EC-B203-750DBD23688D}|SimpleShop\\SimpleShop.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\l5\\simpleshop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FCFE0C-A240-45EC-B203-750DBD23688D}|SimpleShop\\SimpleShop.csproj|solutionrelative:simpleshop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\simpleshop\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|solutionrelative:simpleshop\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FCFE0C-A240-45EC-B203-750DBD23688D}|SimpleShop\\SimpleShop.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\l5\\simpleshop\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0FCFE0C-A240-45EC-B203-750DBD23688D}|SimpleShop\\SimpleShop.csproj|solutionrelative:simpleshop\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\simpleshop\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|solutionrelative:simpleshop\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\simpleshop\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|solutionrelative:simpleshop\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\simpleshop\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|solutionrelative:simpleshop\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\simpleshop\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17141600-D6D1-4132-9B6D-3C9A76362F0F}|SimpleShop\\Shop.WPF.csproj|solutionrelative:simpleshop\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "SimpleShop\\ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "SimpleShop\\ViewModels\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:41:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\SimpleShop\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SimpleShop\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\SimpleShop\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "SimpleShop\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T20:14:36.44Z"
+              "Title": "ProductsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\ProductsViewModel.cs",
+              "RelativeDocumentMoniker": "SimpleShop\\ViewModels\\ProductsViewModel.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\ProductsViewModel.cs",
+              "RelativeToolTip": "SimpleShop\\ViewModels\\ProductsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:41:46.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\SimpleShop\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "SimpleShop\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\SimpleShop\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "SimpleShop\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowFAAAAAjAAAAAAAAAA==",
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "SimpleShop\\ViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "SimpleShop\\ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:58:30.62Z",
+              "WhenOpened": "2024-12-02T11:41:39.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\Views\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "SimpleShop\\Views\\ProductsPage.xaml",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\Views\\ProductsPage.xaml",
+              "RelativeToolTip": "SimpleShop\\Views\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-02T11:41:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SimpleShop\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SimpleShop\\AppDbContext.cs",
+              "RelativeToolTip": "SimpleShop\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:39:35.373Z",
               "EditorCaption": ""
             }
           ]

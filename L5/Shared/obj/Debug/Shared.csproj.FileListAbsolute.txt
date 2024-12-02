@@ -18,3 +18,10 @@ C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shared\obj\Debug\Sh
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shared\obj\Debug\Shared.csproj.Up2Date
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shared\obj\Debug\Shared.dll
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\L5\Shared\obj\Debug\Shared.pdb
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\bin\Debug\Shared.dll
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\bin\Debug\Shared.pdb
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\obj\Debug\Shared.csproj.Up2Date
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\obj\Debug\Shared.dll
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\Shared\obj\Debug\Shared.pdb

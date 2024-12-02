@@ -8116,11 +8116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\Shop.DB\\Shop.DB.csproj",
+      "projectUniqueName": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.DB\\Shop.DB.csproj",
       "projectName": "Shop.DB",
-      "projectPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\Shop.DB\\Shop.DB.csproj",
+      "projectPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.DB\\Shop.DB.csproj",
       "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\Shop.DB\\obj\\",
+      "outputPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.DB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8142,8 +8142,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\L5\\Shared\\Shared.csproj"
+            "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Shared.csproj"
             }
           }
         }
