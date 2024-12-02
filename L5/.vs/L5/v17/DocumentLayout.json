@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|solutionrelative:shop.mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.mvc\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|solutionrelative:shop.mvc\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|solutionrelative:shop.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.mvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|solutionrelative:shop.mvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Shop.MVC\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "Shop.MVC\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T19:04:44.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Shop.MVC\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Shop.MVC\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:04:11.14Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -62,20 +28,20 @@
               "RelativeDocumentMoniker": "Shop.MVC\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Shop.MVC\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-02T18:57:41.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Shop.MVC\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Shop.MVC\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T18:57:16.522Z",
               "EditorCaption": ""

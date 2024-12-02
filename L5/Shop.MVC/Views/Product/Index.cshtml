@@ -33,5 +33,22 @@
 <form method="post" action="/Product/Add">
     <label>Name: <input type="text" name="Name" /></label>
     <label>Price: <input type="number" step="0.01" name="Price" /></label>
+
+    <!-- Dodanie wyboru kategorii -->
+    <label>
+        Category:
+        <select name="CategoryId">
+            @foreach (var category in ViewBag.Categories as List<Shared.Models.Dto.CategoryDto>)
+            {
+                <option value="@category.CategoryId">@category.Name</option>
+            }
+        </select>
+    </label>
+
+    <!-- Pole dla Quantity w formularzu -->
+    <label>Quantity: <input type="number" name="quantity" /></label> <!-- Zmieniamy name na "quantity" -->
+
     <button type="submit">Add</button>
 </form>
+
+

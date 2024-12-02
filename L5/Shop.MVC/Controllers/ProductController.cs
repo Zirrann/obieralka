@@ -1,5 +1,6 @@
 ﻿using L4.Services;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Models;
 using Shared.Models.Dto;
 using Shop.MAUI.Services.ServicesDto;
 
@@ -24,14 +25,26 @@ namespace Shop.Web.Controllers
         public async Task<IActionResult> Index()
         {
             var response = await _productServiceDto.GetAllAsync();
+            var categoriesResponse = await _categoryServiceDto.GetAllAsync();
+
             if (response.Success)
             {
+                if (categoriesResponse.Success)
+                {
+                    ViewBag.Categories = categoriesResponse.Data;  // Przekazanie listy kategorii do widoku
+                }
+                else
+                {
+                    ViewBag.Categories = null;  // W przypadku błędu pobierania kategorii
+                }
+
                 return View(response.Data);
             }
 
             ViewBag.Error = "Failed to load products.";
             return View(new List<ProductDto>());
         }
+
 
         public async Task<IActionResult> Details(int id)
         {
@@ -59,19 +72,41 @@ namespace Shop.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(ProductDto product)
+        public async Task<IActionResult> Add(ProductDto product, int quantity) // Dodajemy quantity jako argument
         {
             if (ModelState.IsValid)
             {
-                var response = await _productServiceDto.CreateAsync(product);
-                if (response.Success)
+                // Tworzymy nowy StockDto na podstawie quantity
+                var newStock = new StockDto
                 {
-                    return RedirectToAction(nameof(Index));
-                }
+                    Quantity = quantity // Używamy quantity przekazanego z formularza
+                };
 
-                ViewBag.Error = response.Message;
+                // Tworzymy nowy Stock w bazie
+                var stockResponse = await _stockServiceDto.CreateAsync(newStock);
+
+                if (stockResponse.Success)
+                {
+                    // Przypisujemy StockId do produktu
+                    product.StockId = stockResponse.Data.StockId;
+
+                    // Tworzymy produkt z nowym StockId
+                    var productResponse = await _productServiceDto.CreateAsync(product);
+
+                    if (productResponse.Success)
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+
+                    ViewBag.Error = productResponse.Message;
+                }
+                else
+                {
+                    ViewBag.Error = "Failed to create stock.";
+                }
             }
 
+            // W przypadku niepowodzenia w dodaniu produktu lub stanu magazynowego, zwróćmy listę produktów
             return View("Index", await _productServiceDto.GetAllAsync());
         }
     }
