@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Windows;
 using Shared.Models.Dto;
 using Shop.WPF.Services.ServicesDto;
+using Shared.Models;
+using Shared.Models.Dto;
 
 namespace Shop.WPF.ViewModels
 {

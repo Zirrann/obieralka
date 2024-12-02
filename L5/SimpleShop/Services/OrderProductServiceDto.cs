@@ -1,9 +1,9 @@
 ﻿using Shared.Models;
 using Shared.Services;
 using Shared.Models.Dto;
-using Shop.MAUI.Services.ServicesDto;
+using Shop.WPF.Services.ServicesDto;
 
-namespace Shop.MAUI.Services
+namespace Shop.WPF.Services
 {
     public class OrderProductServiceDto : CrudServiceDto<OrderProductDto, OrderProductKey>, IOrderProductServiceDto
     {

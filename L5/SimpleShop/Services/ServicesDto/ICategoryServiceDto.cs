@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.MAUI.Services.ServicesDto
+namespace Shop.WPF.Services.ServicesDto
 {
     public interface ICategoryServiceDto : ICrudService<CategoryDto, int>
     {

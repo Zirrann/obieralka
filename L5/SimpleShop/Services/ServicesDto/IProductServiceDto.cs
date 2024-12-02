@@ -2,7 +2,7 @@
 using Shared.Services;
 
 
-namespace Shop.MAUI.Services.ServicesDto
+namespace Shop.WPF.Services.ServicesDto
 {
     public interface IProductServiceDto : ICrudService<ProductDto, int>
     {

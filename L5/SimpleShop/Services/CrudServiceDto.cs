@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 
 
-namespace Shop.MAUI.Services
+namespace Shop.WPF.Services
 {
     public class CrudServiceDto<T, TKey> : ICrudService<T, TKey>
     {
@@ -63,7 +63,7 @@ namespace Shop.MAUI.Services
                 return new ServiceReponse<bool>() { Success = true, Data = true };
             }
 
-            return new ServiceReponse<bool>() {Success = false, Message = $"Error: {response.StatusCode} - {await response.Content.ReadAsStringAsync()}"};
+            return new ServiceReponse<bool>() { Success = false, Message = $"Error: {response.StatusCode} - {await response.Content.ReadAsStringAsync()}" };
         }
 
         private async Task<ServiceReponse<TData>> DeserializeResponse<TData>(HttpResponseMessage response)
@@ -78,7 +78,7 @@ namespace Shop.MAUI.Services
                     var data = JsonSerializer.Deserialize<TData>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
                     serviceResponse.Data = data;
                     serviceResponse.Success = true;
-                    serviceResponse.Message = "Operation succeeded"; 
+                    serviceResponse.Message = "Operation succeeded";
                 }
                 catch (JsonException ex)
                 {

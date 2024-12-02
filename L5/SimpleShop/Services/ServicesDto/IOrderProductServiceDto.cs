@@ -2,7 +2,7 @@
 using Shared.Models.Dto;
 using Shared.Services;
 
-namespace Shop.MAUI.Services.ServicesDto
+namespace Shop.WPF.Services.ServicesDto
 {
     public interface IOrderProductServiceDto : ICrudService<OrderProductDto, OrderProductKey>
     {

@@ -1,8 +1,8 @@
 ﻿using Shared.Models;
 using Shared.Models.Dto;
-using Shop.MAUI.Services.ServicesDto;
+using Shop.WPF.Services.ServicesDto;
 
-namespace Shop.MAUI.Services
+namespace Shop.WPF.Services
 {
     public class CategoryServiceDto : CrudServiceDto<CategoryDto, int>, ICategoryServiceDto
     {

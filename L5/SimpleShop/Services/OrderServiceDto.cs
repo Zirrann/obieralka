@@ -1,13 +1,13 @@
 ﻿using Shared.Models.Dto;
 using Shared.Services;
-using Shop.MAUI.Services.ServicesDto;
+using Shop.WPF.Services.ServicesDto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.MAUI.Services
+namespace Shop.WPF.Services
 {
     public class OrderServiceDto : CrudServiceDto<OrderDto, int>, IOrderServiceDto
     {
