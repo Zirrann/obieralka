@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.mvc\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3EA9F53-3ABE-4908-8A1B-446876CE0D8C}|Shop.MVC\\Shop.MVC.csproj|solutionrelative:shop.mvc\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}|Shared\\Shared.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shared\\models\\dto\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}|Shared\\Shared.csproj|solutionrelative:shared\\models\\dto\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}|Shared\\Shared.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shared\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}|Shared\\Shared.csproj|solutionrelative:shared\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Models\\DTO\\OrderProductDto.cs",
-              "RelativeDocumentMoniker": "Shared\\Models\\DTO\\OrderProductDto.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Models\\DTO\\OrderProductDto.cs",
-              "RelativeToolTip": "Shared\\Models\\DTO\\OrderProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T20:13:47.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Models\\DTO\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Shared\\Models\\DTO\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\Models\\DTO\\OrderDto.cs",
-              "RelativeToolTip": "Shared\\Models\\DTO\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T20:10:09.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "Shop.MVC\\Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.MVC\\Views\\Order\\Details.cshtml",
-              "RelativeToolTip": "Shop.MVC\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\Products.razor",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
+              "RelativeToolTip": "SHOP.BLZR\\Pages\\Products.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T20:08:55.582Z",
+              "WhenOpened": "2024-12-05T11:40:42.294Z",
               "EditorCaption": ""
             }
           ]

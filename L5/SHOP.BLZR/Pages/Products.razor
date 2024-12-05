@@ -1,0 +1,118 @@
+﻿@page "/products"
+@using Shared.Models.Dto
+@using Shared.Services
+@using System.Collections.ObjectModel
+@using Shop.BLZR.Services.ServicesDto
+
+<PageTitle>Products</PageTitle>
+
+<h1>Products</h1>
+
+<p>This component demonstrates showing products.</p>
+
+@if (products == null)
+{
+    <p><em>Loading products...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Stock (Quantity)</th>
+                <th>Actions</th> <!-- Nowa kolumna dla akcji (przycisk usuwania) -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@GetCategoryName(product.CategoryId)</td>
+                    <td>@GetStockQuantity(product.StockId)</td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="() => DeleteProduct(product)">Delete</button>
+                        <!-- Przycisk wywołujący metodę usuwania produktu -->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private ObservableCollection<CategoryDto>? categories;
+    private ObservableCollection<ProductDto>? products;
+    private ObservableCollection<StockDto>? stocks;
+
+    [Inject] private ICategoryServiceDto _categoryService { get; set; } = null!;
+    [Inject] private IProductServiceDto _productService { get; set; } = null!;
+    [Inject] private IStockServiceDto _stockService { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Symulacja opóźnienia, aby pokazać ładowanie
+        await Task.Delay(500);
+
+        // Załaduj kategorie, produkty i stany magazynowe
+        await LoadCategories();
+        await LoadProducts();
+        await LoadStocks();
+    }
+
+    private async Task LoadCategories()
+    {
+        var categoryResponse = await _categoryService.GetAllAsync();
+        if (categoryResponse.Success)
+        {
+            categories = new ObservableCollection<CategoryDto>(categoryResponse.Data);
+        }
+    }
+
+    private async Task LoadProducts()
+    {
+        var productResponse = await _productService.GetAllAsync();
+        if (productResponse.Success)
+        {
+            products = new ObservableCollection<ProductDto>(productResponse.Data);
+        }
+    }
+
+    private async Task LoadStocks()
+    {
+        var stockResponse = await _stockService.GetAllAsync();
+        if (stockResponse.Success)
+        {
+            stocks = new ObservableCollection<StockDto>(stockResponse.Data);
+        }
+    }
+
+    private string GetCategoryName(int categoryId)
+    {
+        var category = categories?.FirstOrDefault(c => c.CategoryId == categoryId);
+        return category?.Name ?? "Unknown";
+    }
+
+    private int GetStockQuantity(int stockId)
+    {
+        var stock = stocks?.FirstOrDefault(s => s.StockId == stockId);
+        return stock?.Quantity ?? -1;
+    }
+
+    private async Task DeleteProduct(ProductDto product)
+    {
+        if (product == null)
+                return;
+
+        var response = await _productService.DeleteAsync(product.Id);
+        if (response.Success)
+        {
+            products.Remove(product);
+            StateHasChanged();
+        }
+    }
+}
