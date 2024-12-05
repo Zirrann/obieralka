@@ -1029,7 +1029,6 @@ C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SHOP.BLZR.props
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SHOP.BLZR.props
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\SHOP.BLZR.csproj.Up2Date
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\SHOP.BLZR.dll
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\refint\SHOP.BLZR.dll
@@ -1042,8 +1041,9 @@ C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\Shared.dll
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\Shared.pdb
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\Shared.wasm
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\so4febjtex-jd3nsbbbk9.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\tkqz27smlw-abncmn8u11.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cn3dgnz1cf-211wr2brps.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\mecfsswd21-bmvr8q43we.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\ceoydmihs0-50rwrv01ye.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\so4febjtex-ojqrti41ga.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\tkqz27smlw-ba5pl59x3i.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cn3dgnz1cf-6yv0hsv17x.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\mecfsswd21-yg5godw0zl.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\ceoydmihs0-wm2u1q7ug1.gz

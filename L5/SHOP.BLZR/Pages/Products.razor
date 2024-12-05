@@ -23,31 +23,55 @@ else
                 <th>Price</th>
                 <th>Category</th>
                 <th>Stock (Quantity)</th>
-                <th>Actions</th> <!-- Nowa kolumna dla akcji (przycisk usuwania) -->
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var product in products)
             {
                 <tr>
-                    <td>@product.Name</td>
-                    <td>@product.Price</td>
-                    <td>@GetCategoryName(product.CategoryId)</td>
-                    <td>@GetStockQuantity(product.StockId)</td>
                     <td>
+                        <input type="text" class="form-control" value="@product.Name" @oninput="(e) => product.Name = e.Value.ToString()" />
+                    </td>
+                    <td>
+                        <input type="number" class="form-control" value="@product.Price"
+                        @oninput="(e) => UpdatePrice(product, e.Value.ToString())" />
+
+                    </td>
+                    <td>
+                        <select class="form-control" @onchange="(e) => product.CategoryId = int.Parse(e.Value.ToString())">
+                            @foreach (var category in categories)
+                            {
+                                <option value="@category.CategoryId" selected="@(category.CategoryId == product.CategoryId)">
+                                    @category.Name
+                                </option>
+                            }
+                        </select>
+                    </td>
+
+
+
+                    <td>
+                        <input type="number" class="form-control" value="@GetStockQuantity(product.StockId)"
+                        @oninput="(e) => UpdateStockQuantity(product.StockId, e.Value.ToString())" />
+                    </td>
+
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => SaveProduct(product)">Save</button>
                         <button class="btn btn-danger" @onclick="() => DeleteProduct(product)">Delete</button>
-                        <!-- Przycisk wywołujący metodę usuwania produktu -->
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+
 }
 
 @code {
     private ObservableCollection<CategoryDto>? categories;
     private ObservableCollection<ProductDto>? products;
     private ObservableCollection<StockDto>? stocks;
+    private ProductDto filterData = new ProductDto();
 
     [Inject] private ICategoryServiceDto _categoryService { get; set; } = null!;
     [Inject] private IProductServiceDto _productService { get; set; } = null!;
@@ -75,7 +99,11 @@ else
 
     private async Task LoadProducts()
     {
-        var productResponse = await _productService.GetAllAsync();
+        filterData.Name = null;
+        filterData.Price = null;
+        filterData.CategoryId = null;
+        filterData.StockId = null;
+        var productResponse = await _productService.GetAllAsyncs(filterData);
         if (productResponse.Success)
         {
             products = new ObservableCollection<ProductDto>(productResponse.Data);
@@ -91,13 +119,13 @@ else
         }
     }
 
-    private string GetCategoryName(int categoryId)
+    private string GetCategoryName(int? categoryId)
     {
         var category = categories?.FirstOrDefault(c => c.CategoryId == categoryId);
         return category?.Name ?? "Unknown";
     }
 
-    private int GetStockQuantity(int stockId)
+    private int GetStockQuantity(int? stockId)
     {
         var stock = stocks?.FirstOrDefault(s => s.StockId == stockId);
         return stock?.Quantity ?? -1;
@@ -115,4 +143,49 @@ else
             StateHasChanged();
         }
     }
+
+    private async Task SaveProduct(ProductDto product)
+    {
+        if (product == null)
+            return;
+
+        var stock = stocks.FirstOrDefault(s => s.StockId == product.StockId);
+        var productResponse = await _productService.UpdateAsync(product.Id, product);
+        var stockResponse = await _stockService.UpdateAsync(product.StockId, stock);
+        if (productResponse.Success && stockResponse.Success)
+        {
+            StateHasChanged();
+        }
+    }
+
+    private void UpdatePrice(ProductDto product, string? value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            product.Price = 0; // Lub jakakolwiek inna wartość domyślna, np. `null` jeśli Price jest typu nullable.
+        }
+        else if (decimal.TryParse(value, out var parsedValue))
+        {
+            product.Price = parsedValue;
+        }
+    }
+
+    private void UpdateStockQuantity(int? stockId, string? value)
+    {
+        if (stocks == null) return;
+
+        // Znajdź odpowiedni obiekt stanu magazynowego
+        var stock = stocks.FirstOrDefault(s => s.StockId == stockId);
+        if (stock == null) return;
+
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            stock.Quantity = 0; // Lub ustaw wartość domyślną, np. `null`, jeśli `Quantity` jest nullable
+        }
+        else if (int.TryParse(value, out var parsedValue))
+        {
+            stock.Quantity = parsedValue;
+        }
+    }
+
 }

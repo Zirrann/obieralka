@@ -4,7 +4,7 @@ using Shared.Services;
 
 namespace Shop.BLZR.Services.ServicesDto
 {
-    public interface IProductServiceDto : ICrudService<ProductDto, int>
+    public interface IProductServiceDto : ICrudService<ProductDto, int?>
     {
     }
 }

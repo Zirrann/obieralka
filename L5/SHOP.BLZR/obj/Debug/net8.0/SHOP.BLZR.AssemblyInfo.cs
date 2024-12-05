@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SHOP.BLZR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94661997753ecb12db37ff901de436beda9d698c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f72ede01264a60f4ad6bac0095133c9dfcdebfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SHOP.BLZR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SHOP.BLZR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

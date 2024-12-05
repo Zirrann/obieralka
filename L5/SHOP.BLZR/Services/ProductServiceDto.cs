@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Shop.BLZR.Services
 {
-    public class ProductServiceDto : CrudServiceDto<ProductDto, int>, IProductServiceDto
+    public class ProductServiceDto : CrudServiceDto<ProductDto, int?>, IProductServiceDto
     {
         public ProductServiceDto(HttpClient httpClient) 
             : base(httpClient, "api/Products")

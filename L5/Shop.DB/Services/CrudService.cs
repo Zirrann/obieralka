@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Shared.Models.Dto;
 using Shared.Services;
+using System.Collections.ObjectModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Shop.DB.Services
 {
@@ -23,7 +26,6 @@ namespace Shop.DB.Services
                 Data = default
             };
         }
-
         public virtual async Task<ServiceReponse<IEnumerable<T>>> GetAllAsync()
         {
             try
@@ -40,6 +42,53 @@ namespace Shop.DB.Services
                 return HandleException<IEnumerable<T>>(ex);
             }
         }
+
+        public virtual async Task<ServiceReponse<IEnumerable<T>>> GetAllAsyncs(ProductDto filterData)
+        {
+            try
+            {
+                var data = await _dbSet.ToListAsync();
+
+                ObservableCollection<ProductDto>? products = new ObservableCollection<ProductDto>((IEnumerable<ProductDto>)data);
+
+                var filteredProducts = products.AsQueryable();
+
+                if (!string.IsNullOrEmpty(filterData.Name))
+                {
+                    filteredProducts = filteredProducts.Where(p => p.Name.Contains(filterData.Name));
+                }
+
+                if (filterData.Price.HasValue)
+                {
+                    filteredProducts = filteredProducts.Where(p => p.Price == filterData.Price.Value);
+                }
+
+                // Filtracja po CategoryId, jeśli wartość jest podana w filterData
+                if (filterData.CategoryId.HasValue)
+                {
+                    filteredProducts = filteredProducts.Where(p => p.CategoryId == filterData.CategoryId.Value);
+                }
+
+                // Filtracja po StockId, jeśli wartość jest podana w filterData
+                if (filterData.StockId.HasValue)
+                {
+                    filteredProducts = filteredProducts.Where(p => p.StockId == filterData.StockId.Value);
+                }
+
+                var finalData = filteredProducts.Cast<T>().ToList();
+
+                return new ServiceReponse<IEnumerable<T>>
+                {
+                    Data = finalData,
+                    Success = true
+                };
+            }
+            catch (Exception ex)
+            {
+                return HandleException<IEnumerable<T>>(ex);
+            }
+        }
+
 
         public virtual async Task<ServiceReponse<T>> GetByIdAsync(TKey id)
         {
@@ -86,7 +135,7 @@ namespace Shop.DB.Services
             }
         }
 
-        public virtual async Task<ServiceReponse<T>> UpdateAsync(TKey id, T entity)
+        public virtual async Task<ServiceReponse<T>> UpdateAsync(TKey? id, T entity)
         {
             try
             {
@@ -115,7 +164,7 @@ namespace Shop.DB.Services
             }
         }
 
-        public virtual async Task<ServiceReponse<bool>> DeleteAsync(TKey id)
+        public virtual async Task<ServiceReponse<bool>> DeleteAsync(TKey? id)
         {
             try
             {

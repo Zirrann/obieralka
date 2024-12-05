@@ -1,4 +1,7 @@
-﻿using Shared.Services;
+﻿using Shared.Models;
+using Shared.Models.Dto;
+using Shared.Services;
+using System.Collections.ObjectModel;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
@@ -23,6 +26,51 @@ namespace Shop.BLZR.Services
             return await DeserializeResponse<IEnumerable<T>>(response);
         }
 
+        public async Task<ServiceReponse<IEnumerable<T>>> GetAllAsyncs(ProductDto filterData)
+        {
+            // Pobieramy odpowiedź z endpointu
+            var response = await _httpClient.GetAsync($"{_endpoint}");
+
+            // Deserializujemy odpowiedź
+            var data = await DeserializeResponse<IEnumerable<T>>(response);
+
+            ObservableCollection<ProductDto>? products = new ObservableCollection<ProductDto>((IEnumerable<ProductDto>)data.Data);
+
+            var filteredProducts = products.AsQueryable();
+
+            if (!string.IsNullOrEmpty(filterData.Name))
+            {
+                filteredProducts = filteredProducts.Where(p => p.Name.Contains(filterData.Name));
+            }
+
+            if (filterData.Price.HasValue)
+            {
+                filteredProducts = filteredProducts.Where(p => p.Price == filterData.Price.Value);
+            }
+
+            // Filtracja po CategoryId, jeśli wartość jest podana w filterData
+            if (filterData.CategoryId.HasValue)
+            {
+                filteredProducts = filteredProducts.Where(p => p.CategoryId == filterData.CategoryId.Value);
+            }
+
+            // Filtracja po StockId, jeśli wartość jest podana w filterData
+            if (filterData.StockId.HasValue)
+            {
+                filteredProducts = filteredProducts.Where(p => p.StockId == filterData.StockId.Value);
+            }
+
+            var finalData = filteredProducts.Cast<T>().ToList();
+
+            // Zwracamy odpowiedź z przefiltrowanymi danymi
+            return new ServiceReponse<IEnumerable<T>>
+            {
+                Data = finalData,
+                Success = true
+            };
+        }
+
+
         public async Task<ServiceReponse<T>> GetByIdAsync(TKey id)
         {
             var response = await _httpClient.GetAsync($"{_endpoint}/{id}");
@@ -35,13 +83,13 @@ namespace Shop.BLZR.Services
             return await DeserializeResponse<T>(response);
         }
 
-        public async Task<ServiceReponse<T>> UpdateAsync(TKey id, T entity)
+        public async Task<ServiceReponse<T>> UpdateAsync(TKey? id, T entity)
         {
             var response = await _httpClient.PutAsJsonAsync($"{_endpoint}/{id}", entity);
             return await DeserializeResponse<T>(response);
         }
 
-        public virtual async Task<ServiceReponse<bool>> DeleteAsync(TKey id)
+        public virtual async Task<ServiceReponse<bool>> DeleteAsync(TKey? id)
         {
             var response = await _httpClient.DeleteAsync($"{_endpoint}/{id}");
 

@@ -877,7 +877,8 @@
         "properties": {
           "id": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "name": {
             "type": "string",
@@ -885,15 +886,18 @@
           },
           "price": {
             "type": "number",
-            "format": "double"
+            "format": "double",
+            "nullable": true
           },
           "stockId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "categoryId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false
