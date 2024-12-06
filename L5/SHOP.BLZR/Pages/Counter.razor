@@ -1,18 +1,124 @@
-﻿@page "/counter"
+﻿@page "/addProduct"
+@using Shared.Models.Dto
+@using Shared.Services
+@using System.Collections.ObjectModel
+@using Shop.BLZR.Services.ServicesDto
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Add Product</PageTitle>
 
-<h1>Counter</h1>
+<h1>Add New Product</h1>
 
-<p role="status">Current count: @currentCount</p>
+@if (categories == null)
+{
+    <p>Loading categories...</p>
+}
+else
+{
+    <div class="mb-3">
+        <label for="productName" class="form-label">Product Name</label>
+        <input type="text" id="productName" class="form-control" @bind="NewProductName" placeholder="Enter product name" />
+    </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <div class="mb-3">
+        <label for="productPrice" class="form-label">Product Price</label>
+        <input type="number" id="productPrice" class="form-control" @bind="NewProductPrice" placeholder="Enter product price" min="0" />
+    </div>
+
+    <div class="mb-3">
+        <label for="categorySelect" class="form-label">Category</label>
+        <select id="categorySelect" class="form-control" @bind="SelectedCategoryId">
+            <option value="">-- Select Category --</option>
+            @foreach (var category in categories)
+            {
+                <option value="@category.CategoryId">@category.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="stockQuantity" class="form-label">Stock Quantity</label>
+        <input type="number" id="stockQuantity" class="form-control" @bind="SelectedStockQuantity" placeholder="Enter stock quantity" min="1" />
+    </div>
+
+    <button class="btn btn-primary" @onclick="AddProduct">Add Product</button>
+
+    @if (NewProductName == string.Empty && NewProductPrice <= 0 && SelectedCategoryId == null && SelectedStockQuantity <= 0)
+    {
+        <div class="alert alert-success mt-3" role="alert">
+            Product added successfully!
+        </div>
+    }
+
+    @if (NewProductName != string.Empty && NewProductPrice <= 0 && SelectedCategoryId == null && SelectedStockQuantity <= 0)
+    {
+        <div class="alert alert-danger mt-3" role="alert">
+            Please fill all fields correctly.
+        </div>
+    }
+}
 
 @code {
-    private int currentCount = 0;
+    private ObservableCollection<CategoryDto>? categories;
+    private ObservableCollection<ProductDto>? products;
+    private ObservableCollection<StockDto>? stocks;
+    private string NewProductName;
+    private decimal? NewProductPrice;
+    private int? SelectedCategoryId;
+    private int SelectedStockQuantity;
 
-    private void IncrementCount()
+    [Inject] private ICategoryServiceDto _categoryService { get; set; } = null!;
+    [Inject] private IProductServiceDto _productService { get; set; } = null!;
+    [Inject] private IStockServiceDto _stockService { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    { 
+        await Task.Delay(250);
+        await LoadCategories();
+    }
+
+    private async Task LoadCategories()
     {
-        currentCount++;
+        var categoryResponse = await _categoryService.GetAllAsync();
+        if (categoryResponse.Success)
+        {
+            categories = new ObservableCollection<CategoryDto>(categoryResponse.Data);
+        }
+    }
+
+    private async Task AddProduct()
+    {
+        if (string.IsNullOrWhiteSpace(NewProductName) || NewProductPrice <= 0 || SelectedCategoryId == null || SelectedStockQuantity <= 0)
+            return;
+
+        var stock = new StockDto
+            {
+                StockId = 0,
+                Quantity = SelectedStockQuantity
+            };
+
+
+        var stockResponse = await _stockService.CreateAsync(stock);
+        if (!stockResponse.Success)
+        {
+            return;
+        }
+
+
+        var newProduct = new ProductDto
+            {
+                Name = NewProductName,
+                Price = NewProductPrice,
+                CategoryId = SelectedCategoryId,
+                StockId = stockResponse.Data.StockId
+            };
+
+        var response = await _productService.CreateAsync(newProduct);
+        if (response.Success)
+        {
+            NewProductName = string.Empty;
+            NewProductPrice = 0;
+            SelectedCategoryId = null;
+            SelectedStockQuantity = 0;
+        }
     }
 }

@@ -16,6 +16,62 @@
 }
 else
 {
+    <div class="mb-3">
+        <h4>Filters</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="filterName">Filter by Name</label>
+                <input type="text" id="filterName" class="form-control" @bind="filterData.Name" placeholder="Enter product name" />
+            </div>
+            <div class="col-md-3">
+                <label for="filterPrice">Filter by Price</label>
+                <input type="number" id="filterPrice" class="form-control" @bind="filterData.Price" placeholder="Enter price" />
+            </div>
+            <div class="col-md-3">
+                <label for="filterCategory">Filter by Category</label>
+                <select id="filterCategory" class="form-control" @bind="filterData.CategoryId">
+                    <option value="">-- All Categories --</option>
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.CategoryId">@category.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="filterQuantity">Filter by Quantity</label>
+                <input type="number" id="filterQuantity" class="form-control" @bind="filterData.StockId" placeholder="Enter quantity" />
+            </div>
+        </div>
+
+        <h4 class="mt-4">Sorting</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="sortColumn">Sort By</label>
+                <select id="sortColumn" class="form-control" @onchange="(e) => SetSortColumn(e.Value)">
+                    <option value="">-- None --</option> <!-- Option for no sorting -->
+                    <option value="Name">Name</option>
+                    <option value="Price">Price</option>
+                    <option value="CategoryId">Category</option>
+                    <option value="StockId">Stock (Quantity)</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="sortOrder">Sort Order</label>
+                <select id="sortOrder" class="form-control" @bind="SortOrderValue">
+                    <option value="true">Ascending</option>
+                    <option value="false">Descending</option>
+                </select>
+
+            </div>
+        </div>
+
+
+        <button class="btn btn-primary mt-3" @onclick="ApplyFilters">Apply Filters</button>
+        <button class="btn btn-secondary mt-3" @onclick="ResetFilters">Reset Filters</button>
+        <button class="btn btn-primary mt-3" @onclick="ApplyFilters">Apply Sorting</button>
+    </div>
+
+
     <table class="table">
         <thead>
             <tr>
@@ -64,6 +120,27 @@ else
             }
         </tbody>
     </table>
+    <div class="d-flex align-items-center mt-4">
+        <!-- Previous Page Button -->
+        <button class="btn btn-outline-primary me-2" @onclick="DecrementPageNumber" disabled="@IsFirstPage">
+            &lt; Previous
+        </button>
+
+        <!-- Current Page Number Display -->
+        <span>Page: <strong>@pageNumber</strong></span>
+
+        <!-- Next Page Button -->
+        <button class="btn btn-outline-primary ms-2" @onclick="IncrementPageNumber">
+            Next &gt;
+        </button>
+
+        <!-- Page Size Input -->
+        <div class="ms-4">
+            <label for="pageSizeInput" class="form-label">Page Size:</label>
+            <input type="number" id="pageSizeInput" class="form-control" style="width: 100px; display: inline;"
+            @bind="pageSize" min="1" />
+        </div>
+    </div>
 
 }
 
@@ -74,9 +151,15 @@ else
 
     private ProductDto filterData = new ProductDto();
     private ProductDto sortBy = new ProductDto();
-    private bool sortRising = true;
-    int pageNumber = 1;
-    int pageSize = 10;
+    private bool sortRising { get; set; } = true;
+    private string SortOrderValue
+    {
+        get => sortRising ? "true" : "false";
+        set => sortRising = value == "true";
+    }
+    private int pageNumber = 1;
+    private int pageSize = 10;
+    private bool IsFirstPage => pageNumber <= 1; // Disable decrement button on first page
 
     [Inject] private ICategoryServiceDto _categoryService { get; set; } = null!;
     [Inject] private IProductServiceDto _productService { get; set; } = null!;
@@ -85,7 +168,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         // Symulacja opóźnienia, aby pokazać ładowanie
-        await Task.Delay(500);
+        await Task.Delay(250);
 
         // Załaduj kategorie, produkty i stany magazynowe
         await LoadCategories();
@@ -104,14 +187,6 @@ else
 
     private async Task LoadProducts()
     {
-        filterData.Name = null;
-        filterData.Price = null;
-        filterData.CategoryId = null;
-        filterData.StockId = null;
-        sortBy.StockId = 1;
-        sortRising = false;
-        pageNumber = 2;
-        pageSize = 10;
         var productResponse = await _productService.GetAllAsync();
         if (productResponse.Success)
             products = new ObservableCollection<ProductDto>(productResponse.Data);
@@ -144,7 +219,7 @@ else
     private async Task DeleteProduct(ProductDto product)
     {
         if (product == null)
-                return;
+            return;
 
         var response = await _productService.DeleteAsync(product.Id);
         if (response.Success)
@@ -196,6 +271,60 @@ else
         {
             stock.Quantity = parsedValue;
         }
+    }
+
+    private async Task ApplyFilters()
+    {
+        await LoadProducts();
+        StateHasChanged();
+    }
+
+    private async Task ResetFilters()
+    {
+        filterData = new ProductDto();
+        await ApplyFilters();
+    }
+
+    private void SetSortColumn(object column)
+    {
+        // Reset all sortBy properties to null, and only set the selected column
+        sortBy = new ProductDto();
+
+        if (string.IsNullOrEmpty(column?.ToString()))
+        {
+            return;
+        }
+
+        switch (column.ToString())
+        {
+            case "Name":
+                sortBy.Name = "Name";
+                break;
+            case "Price":
+                sortBy.Price = 0; // Dummy value for indicating sorting by Price
+                break;
+            case "CategoryId":
+                sortBy.CategoryId = 0; // Dummy value for indicating sorting by CategoryId
+                break;
+            case "StockId":
+                sortBy.StockId = 0; // Dummy value for indicating sorting by StockId
+                break;
+        }
+    }
+
+    private async Task DecrementPageNumber()
+    {
+        if (pageNumber > 1)
+        {
+            pageNumber--;
+            await ApplyFilters();
+        }
+    }
+
+    private async Task IncrementPageNumber()
+    {
+        pageNumber++;
+        await ApplyFilters();
     }
 
 }

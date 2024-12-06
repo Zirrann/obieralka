@@ -67,7 +67,7 @@ namespace Shop.BLZR.Services
 
             if (filterData.StockId.HasValue)
             {
-                combinedProducts = combinedProducts.Where(x => x.Product.StockId == filterData.StockId.Value);
+                combinedProducts = combinedProducts.Where(x => x.Stock.StockId == filterData.StockId.Value && x.Stock.Quantity > 0);
             }
 
             // Sortowanie

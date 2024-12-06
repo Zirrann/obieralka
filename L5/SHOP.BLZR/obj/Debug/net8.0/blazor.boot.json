@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SHOP.BLZR",
   "resources": {
-    "hash": "sha256-Uqs4uHG7m/WCqC4NQoXvyO8BaVq7WWmyRCNMkmcaqxg=",
+    "hash": "sha256-ZK7inn4VhlrlKOol60cmODlvuB7w53sVVJ9DlsyuY9E=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -210,11 +210,11 @@
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
       "Shared.wasm": "sha256-Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4=",
-      "SHOP.BLZR.wasm": "sha256-ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg="
+      "SHOP.BLZR.wasm": "sha256-XEvoncJwi5b+nw3wCm8kJp7y3ZwfjiZjZwLOd93Nb1Q="
     },
     "pdb": {
       "Shared.pdb": "sha256-hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4=",
-      "SHOP.BLZR.pdb": "sha256-ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA="
+      "SHOP.BLZR.pdb": "sha256-RNAb6dd8SV9nuOheh649laZ47Cc2GHWPd/s07ggMscA="
     }
   },
   "cacheBootResources": true,

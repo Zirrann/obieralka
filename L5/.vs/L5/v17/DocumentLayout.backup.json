@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A79EAFC-000F-484A-81F8-E1D7E580C679}|Shop.DB\\Shop.DB.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.db\\services\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A79EAFC-000F-484A-81F8-E1D7E580C679}|Shop.DB\\Shop.DB.csproj|solutionrelative:shop.db\\services\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\services\\crudservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\services\\crudservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CrudServiceDto.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Services\\CrudServiceDto.cs",
-              "RelativeDocumentMoniker": "SHOP.BLZR\\Services\\CrudServiceDto.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Services\\CrudServiceDto.cs",
-              "RelativeToolTip": "SHOP.BLZR\\Services\\CrudServiceDto.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAG8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T07:33:39.9Z",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Counter.razor",
+              "RelativeToolTip": "SHOP.BLZR\\Pages\\Counter.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:08:41.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CrudService.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.DB\\Services\\CrudService.cs",
-              "RelativeDocumentMoniker": "Shop.DB\\Services\\CrudService.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shop.DB\\Services\\CrudService.cs",
-              "RelativeToolTip": "Shop.DB\\Services\\CrudService.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T07:33:30.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Products.razor",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
               "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\Products.razor",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
               "RelativeToolTip": "SHOP.BLZR\\Pages\\Products.razor",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAhwG8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T11:40:42.294Z",
               "EditorCaption": ""
