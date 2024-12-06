@@ -77,7 +77,7 @@ namespace Shop.DB.Services
 
             if (filterData.StockId.HasValue)
             {
-                combinedProducts = combinedProducts.Where(x => x.Stock.StockId == filterData.StockId.Value && x.Stock.Quantity > 0);
+                combinedProducts = combinedProducts.Where(x => x.Stock.Quantity == filterData.StockId.Value);
             }
 
             // Sortowanie

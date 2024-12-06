@@ -87,7 +87,7 @@ else
 
     private async Task AddProduct()
     {
-        if (string.IsNullOrWhiteSpace(NewProductName) || NewProductPrice <= 0 || SelectedCategoryId == null || SelectedStockQuantity <= 0)
+        if (string.IsNullOrWhiteSpace(NewProductName) || NewProductPrice <= 0 || SelectedCategoryId == null || SelectedStockQuantity < 0)
             return;
 
         var stock = new StockDto

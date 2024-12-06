@@ -1044,6 +1044,6 @@ C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\so4febjtex-mxnnsjj4ag.gz
 C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\tkqz27smlw-0dvv1nc3uk.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cn3dgnz1cf-onlwfkoner.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\mecfsswd21-cuspmf0cv3.gz
-C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\ceoydmihs0-vks0z7f3jp.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cn3dgnz1cf-904o3sh76e.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\mecfsswd21-rxymdgnggw.gz
+C:\Users\Jakub\Desktop\None\college\year3\gowno obieralka\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\ceoydmihs0-eih11eb875.gz

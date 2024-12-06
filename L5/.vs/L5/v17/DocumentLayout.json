@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\addproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\addproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Counter.razor",
-              "RelativeToolTip": "SHOP.BLZR\\Pages\\Counter.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAAeAAAAAAAAAA==",
+              "Title": "AddProducts.razor",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\AddProducts.razor",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\AddProducts.razor",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\AddProducts.razor",
+              "RelativeToolTip": "SHOP.BLZR\\Pages\\AddProducts.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T19:08:41.607Z",
+              "WhenOpened": "2024-12-06T19:30:16.363Z",
               "EditorCaption": ""
             },
             {
@@ -43,8 +43,7 @@
               "RelativeToolTip": "SHOP.BLZR\\Pages\\Products.razor",
               "ViewState": "AgIAAJkAAAAAAAAAAAAAAKoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T11:40:42.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:40:42.294Z"
             }
           ]
         }
