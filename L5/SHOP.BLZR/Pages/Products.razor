@@ -71,7 +71,12 @@ else
     private ObservableCollection<CategoryDto>? categories;
     private ObservableCollection<ProductDto>? products;
     private ObservableCollection<StockDto>? stocks;
+
     private ProductDto filterData = new ProductDto();
+    private ProductDto sortBy = new ProductDto();
+    private bool sortRising = true;
+    int pageNumber = 1;
+    int pageSize = 10;
 
     [Inject] private ICategoryServiceDto _categoryService { get; set; } = null!;
     [Inject] private IProductServiceDto _productService { get; set; } = null!;
@@ -84,8 +89,8 @@ else
 
         // Załaduj kategorie, produkty i stany magazynowe
         await LoadCategories();
-        await LoadProducts();
         await LoadStocks();
+        await LoadProducts();
     }
 
     private async Task LoadCategories()
@@ -103,11 +108,16 @@ else
         filterData.Price = null;
         filterData.CategoryId = null;
         filterData.StockId = null;
-        var productResponse = await _productService.GetAllAsyncs(filterData);
+        sortBy.StockId = 1;
+        sortRising = false;
+        pageNumber = 2;
+        pageSize = 10;
+        var productResponse = await _productService.GetAllAsync();
         if (productResponse.Success)
-        {
             products = new ObservableCollection<ProductDto>(productResponse.Data);
-        }
+        productResponse = await _productService.GetFilteredProducts(products, categories, stocks, filterData, sortBy, sortRising, pageNumber, pageSize);
+        if (productResponse.Success)
+            products = new ObservableCollection<ProductDto>(productResponse.Data);
     }
 
     private async Task LoadStocks()

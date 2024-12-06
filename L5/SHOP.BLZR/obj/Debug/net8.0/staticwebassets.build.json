@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N4B68n2QAbru0Iq2EzXpIaPr5mqsrKKyl4ScrZnAjd4=",
+  "Hash": "2tINuYamWfc2G/TbyDYTK1V5wVSJcBs86fubrQMXVdI=",
   "Source": "SHOP.BLZR",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "wm2u1q7ug1",
-      "Integrity": "KF5Dtu5y3rarxYPJTkwcHEVCUS0w1BhbxXdUaR3Wr0w=",
+      "Fingerprint": "dhohgpgezo",
+      "Integrity": "z9UzuDu2kc7NOzBpmmMHR0Sti9Le6Fo5ah68Ebx9YZg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ba5pl59x3i",
-      "Integrity": "AyDamzLM8McXYHKCFygQ0f3KfregN3nmsuxwRsoK82U=",
+      "Fingerprint": "0dvv1nc3uk",
+      "Integrity": "hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\Shared\\bin\\Debug\\Shared.pdb"
@@ -913,8 +913,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ojqrti41ga",
-      "Integrity": "3PsScKYfbLzIp74eXXsjsvoD3jpmTzSBZc8Bv8qANDI=",
+      "Fingerprint": "mxnnsjj4ag",
+      "Integrity": "Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\webcil\\Shared.wasm"
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "yg5godw0zl",
-      "Integrity": "suvlBa/lw6A+RygZWGOEtA2IfqkToG1dzBwYWIJhgro=",
+      "Fingerprint": "h6awps9u7q",
+      "Integrity": "ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\SHOP.BLZR.pdb"
@@ -955,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "6yv0hsv17x",
-      "Integrity": "Qo2Ff/efRLvQEwQJNI19D3jLbZXuwCs2Lcv7ckzA27Y=",
+      "Fingerprint": "9ka74thjln",
+      "Integrity": "ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\webcil\\SHOP.BLZR.wasm"
@@ -6149,7 +6149,7 @@
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-wm2u1q7ug1.gz",
+      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-dhohgpgezo.gz",
       "SourceId": "SHOP.BLZR",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\",
@@ -6163,8 +6163,8 @@
       "RelatedAsset": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lp2k0zzi93",
-      "Integrity": "uWZXYuE1gysbWk/RJNKgLrVcCEyvYjjq1b8NqvlQafY=",
+      "Fingerprint": "2lzpwy78mo",
+      "Integrity": "ZtjxhqxyiQZcwAwbHv3XeNxBPLw5RlQTZg0lmB4pVCQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6212,7 +6212,7 @@
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Mail.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-6yv0hsv17x.gz",
+      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-9ka74thjln.gz",
       "SourceId": "SHOP.BLZR",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\",
@@ -6226,8 +6226,8 @@
       "RelatedAsset": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SHOP.BLZR.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ybeg52pr7q",
-      "Integrity": "jmmZjQrMznd/aCyFaKO+K6A/hq2v1xGOlUeHGYT7nWg=",
+      "Fingerprint": "5frh5yrgza",
+      "Integrity": "772TsJjLt3HlA6cTvNHfB8hCP0rUDgwCkhZ97Ejn4mw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SHOP.BLZR.wasm"
@@ -7199,7 +7199,7 @@
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-yg5godw0zl.gz",
+      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-h6awps9u7q.gz",
       "SourceId": "SHOP.BLZR",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\",
@@ -7213,8 +7213,8 @@
       "RelatedAsset": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SHOP.BLZR.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ghgql5hwob",
-      "Integrity": "DLEhnC+PfXTrPpkfgP0eKw8AcOWa6mlIucqmi7fVJw4=",
+      "Fingerprint": "wmd2vmp1xz",
+      "Integrity": "eOeVACM3UaedRv0Ei9WyjtI2HOHDjCNPIj9o0I5h7rI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SHOP.BLZR.pdb"
@@ -7724,7 +7724,7 @@
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-ojqrti41ga.gz",
+      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-mxnnsjj4ag.gz",
       "SourceId": "SHOP.BLZR",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\",
@@ -7738,8 +7738,8 @@
       "RelatedAsset": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "y5odkrxc0v",
-      "Integrity": "alRu9P5WdaDMJ3QmMCwazLGVhC7FJs2HMdfw1NhjHps=",
+      "Fingerprint": "cg399ss8zd",
+      "Integrity": "RC3qySFqdhHBGkvNro136JfQR8BO5nPtyNObhW+nmYw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.wasm"
@@ -7892,7 +7892,7 @@
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-ba5pl59x3i.gz",
+      "Identity": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-0dvv1nc3uk.gz",
       "SourceId": "SHOP.BLZR",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\",
@@ -7906,8 +7906,8 @@
       "RelatedAsset": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zat501wf85",
-      "Integrity": "m4diR2qFwFF7PP5d/T2uc7Hi3v265qduZaR7vB+9etc=",
+      "Fingerprint": "we8bluhmli",
+      "Integrity": "WPzHvHgkKT994xp4MFJzD7JvNcZpxxGALaJg9PT3p+g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.pdb"
@@ -8920,11 +8920,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KF5Dtu5y3rarxYPJTkwcHEVCUS0w1BhbxXdUaR3Wr0w=\""
+          "Value": "\"z9UzuDu2kc7NOzBpmmMHR0Sti9Le6Fo5ah68Ebx9YZg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:05:04 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8934,18 +8934,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KF5Dtu5y3rarxYPJTkwcHEVCUS0w1BhbxXdUaR3Wr0w="
+          "Value": "sha256-z9UzuDu2kc7NOzBpmmMHR0Sti9Le6Fo5ah68Ebx9YZg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-wm2u1q7ug1.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-dhohgpgezo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000111969544"
+          "Quality": "0.000111931945"
         }
       ],
       "ResponseHeaders": [
@@ -8955,15 +8955,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8930"
+          "Value": "8933"
         },
         {
           "Name": "ETag",
-          "Value": "\"uWZXYuE1gysbWk/RJNKgLrVcCEyvYjjq1b8NqvlQafY=\""
+          "Value": "\"ZtjxhqxyiQZcwAwbHv3XeNxBPLw5RlQTZg0lmB4pVCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:59 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8983,19 +8983,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KF5Dtu5y3rarxYPJTkwcHEVCUS0w1BhbxXdUaR3Wr0w=\""
+          "Value": "W/\"z9UzuDu2kc7NOzBpmmMHR0Sti9Le6Fo5ah68Ebx9YZg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KF5Dtu5y3rarxYPJTkwcHEVCUS0w1BhbxXdUaR3Wr0w="
+          "Value": "sha256-z9UzuDu2kc7NOzBpmmMHR0Sti9Le6Fo5ah68Ebx9YZg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-wm2u1q7ug1.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\ceoydmihs0-dhohgpgezo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9004,7 +9004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8930"
+          "Value": "8933"
         },
         {
           "Name": "Content-Type",
@@ -9012,11 +9012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uWZXYuE1gysbWk/RJNKgLrVcCEyvYjjq1b8NqvlQafY=\""
+          "Value": "\"ZtjxhqxyiQZcwAwbHv3XeNxBPLw5RlQTZg0lmB4pVCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:59 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9034,7 +9034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uWZXYuE1gysbWk/RJNKgLrVcCEyvYjjq1b8NqvlQafY="
+          "Value": "sha256-ZtjxhqxyiQZcwAwbHv3XeNxBPLw5RlQTZg0lmB4pVCQ="
         }
       ]
     },
@@ -14537,11 +14537,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AyDamzLM8McXYHKCFygQ0f3KfregN3nmsuxwRsoK82U=\""
+          "Value": "\"hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:35 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14551,13 +14551,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AyDamzLM8McXYHKCFygQ0f3KfregN3nmsuxwRsoK82U="
+          "Value": "sha256-hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4="
         }
       ]
     },
     {
       "Route": "_framework/Shared.pdb",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-ba5pl59x3i.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-0dvv1nc3uk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -14576,11 +14576,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m4diR2qFwFF7PP5d/T2uc7Hi3v265qduZaR7vB+9etc=\""
+          "Value": "\"WPzHvHgkKT994xp4MFJzD7JvNcZpxxGALaJg9PT3p+g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:35 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14600,19 +14600,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AyDamzLM8McXYHKCFygQ0f3KfregN3nmsuxwRsoK82U=\""
+          "Value": "W/\"hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AyDamzLM8McXYHKCFygQ0f3KfregN3nmsuxwRsoK82U="
+          "Value": "sha256-hI3y/DOMTQUNVQ5Y5wBPObArfeUPz3L3ud+s9cGMUW4="
         }
       ]
     },
     {
       "Route": "_framework/Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-ba5pl59x3i.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\tkqz27smlw-0dvv1nc3uk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14629,11 +14629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m4diR2qFwFF7PP5d/T2uc7Hi3v265qduZaR7vB+9etc=\""
+          "Value": "\"WPzHvHgkKT994xp4MFJzD7JvNcZpxxGALaJg9PT3p+g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:35 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14651,7 +14651,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m4diR2qFwFF7PP5d/T2uc7Hi3v265qduZaR7vB+9etc="
+          "Value": "sha256-WPzHvHgkKT994xp4MFJzD7JvNcZpxxGALaJg9PT3p+g="
         }
       ]
     },
@@ -14674,11 +14674,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3PsScKYfbLzIp74eXXsjsvoD3jpmTzSBZc8Bv8qANDI=\""
+          "Value": "\"Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:39 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14688,18 +14688,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3PsScKYfbLzIp74eXXsjsvoD3jpmTzSBZc8Bv8qANDI="
+          "Value": "sha256-Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4="
         }
       ]
     },
     {
       "Route": "_framework/Shared.wasm",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-ojqrti41ga.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-mxnnsjj4ag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000217438574"
+          "Quality": "0.000212359312"
         }
       ],
       "ResponseHeaders": [
@@ -14709,15 +14709,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4598"
+          "Value": "4708"
         },
         {
           "Name": "ETag",
-          "Value": "\"alRu9P5WdaDMJ3QmMCwazLGVhC7FJs2HMdfw1NhjHps=\""
+          "Value": "\"RC3qySFqdhHBGkvNro136JfQR8BO5nPtyNObhW+nmYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:39 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14737,19 +14737,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3PsScKYfbLzIp74eXXsjsvoD3jpmTzSBZc8Bv8qANDI=\""
+          "Value": "W/\"Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3PsScKYfbLzIp74eXXsjsvoD3jpmTzSBZc8Bv8qANDI="
+          "Value": "sha256-Fi9WtAGWNVndm1TUWe9uLiumNBT2RXHRNB0xExte2d4="
         }
       ]
     },
     {
       "Route": "_framework/Shared.wasm.gz",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-ojqrti41ga.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\so4febjtex-mxnnsjj4ag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14758,7 +14758,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4598"
+          "Value": "4708"
         },
         {
           "Name": "Content-Type",
@@ -14766,11 +14766,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"alRu9P5WdaDMJ3QmMCwazLGVhC7FJs2HMdfw1NhjHps=\""
+          "Value": "\"RC3qySFqdhHBGkvNro136JfQR8BO5nPtyNObhW+nmYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 16:32:39 GMT"
+          "Value": "Fri, 06 Dec 2024 08:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14788,7 +14788,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-alRu9P5WdaDMJ3QmMCwazLGVhC7FJs2HMdfw1NhjHps="
+          "Value": "sha256-RC3qySFqdhHBGkvNro136JfQR8BO5nPtyNObhW+nmYw="
         }
       ]
     },
@@ -14803,7 +14803,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31264"
+          "Value": "31884"
         },
         {
           "Name": "Content-Type",
@@ -14811,11 +14811,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"suvlBa/lw6A+RygZWGOEtA2IfqkToG1dzBwYWIJhgro=\""
+          "Value": "\"ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:05:03 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14825,18 +14825,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-suvlBa/lw6A+RygZWGOEtA2IfqkToG1dzBwYWIJhgro="
+          "Value": "sha256-ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA="
         }
       ]
     },
     {
       "Route": "_framework/SHOP.BLZR.pdb",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-yg5godw0zl.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-h6awps9u7q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000045926334"
+          "Quality": "0.000045328861"
         }
       ],
       "ResponseHeaders": [
@@ -14846,15 +14846,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21773"
+          "Value": "22060"
         },
         {
           "Name": "ETag",
-          "Value": "\"DLEhnC+PfXTrPpkfgP0eKw8AcOWa6mlIucqmi7fVJw4=\""
+          "Value": "\"eOeVACM3UaedRv0Ei9WyjtI2HOHDjCNPIj9o0I5h7rI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:58 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14874,19 +14874,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"suvlBa/lw6A+RygZWGOEtA2IfqkToG1dzBwYWIJhgro=\""
+          "Value": "W/\"ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-suvlBa/lw6A+RygZWGOEtA2IfqkToG1dzBwYWIJhgro="
+          "Value": "sha256-ibRD2UQPrRp2059G9p58xAsB/0R5n1uBKqIHpdNcEBA="
         }
       ]
     },
     {
       "Route": "_framework/SHOP.BLZR.pdb.gz",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-yg5godw0zl.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\mecfsswd21-h6awps9u7q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14895,7 +14895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21773"
+          "Value": "22060"
         },
         {
           "Name": "Content-Type",
@@ -14903,11 +14903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DLEhnC+PfXTrPpkfgP0eKw8AcOWa6mlIucqmi7fVJw4=\""
+          "Value": "\"eOeVACM3UaedRv0Ei9WyjtI2HOHDjCNPIj9o0I5h7rI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:58 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14925,7 +14925,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DLEhnC+PfXTrPpkfgP0eKw8AcOWa6mlIucqmi7fVJw4="
+          "Value": "sha256-eOeVACM3UaedRv0Ei9WyjtI2HOHDjCNPIj9o0I5h7rI="
         }
       ]
     },
@@ -14940,7 +14940,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43797"
+          "Value": "49429"
         },
         {
           "Name": "Content-Type",
@@ -14948,11 +14948,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qo2Ff/efRLvQEwQJNI19D3jLbZXuwCs2Lcv7ckzA27Y=\""
+          "Value": "\"ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:05:04 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14962,18 +14962,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Qo2Ff/efRLvQEwQJNI19D3jLbZXuwCs2Lcv7ckzA27Y="
+          "Value": "sha256-ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg="
         }
       ]
     },
     {
       "Route": "_framework/SHOP.BLZR.wasm",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-6yv0hsv17x.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-9ka74thjln.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000055623540"
+          "Quality": "0.000049950050"
         }
       ],
       "ResponseHeaders": [
@@ -14983,15 +14983,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17977"
+          "Value": "20019"
         },
         {
           "Name": "ETag",
-          "Value": "\"jmmZjQrMznd/aCyFaKO+K6A/hq2v1xGOlUeHGYT7nWg=\""
+          "Value": "\"772TsJjLt3HlA6cTvNHfB8hCP0rUDgwCkhZ97Ejn4mw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:58 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15011,19 +15011,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Qo2Ff/efRLvQEwQJNI19D3jLbZXuwCs2Lcv7ckzA27Y=\""
+          "Value": "W/\"ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Qo2Ff/efRLvQEwQJNI19D3jLbZXuwCs2Lcv7ckzA27Y="
+          "Value": "sha256-ORnAACDfAHwHqnz08FJayuywshOfJ1ejnSoy7n9Ihqg="
         }
       ]
     },
     {
       "Route": "_framework/SHOP.BLZR.wasm.gz",
-      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-6yv0hsv17x.gz",
+      "AssetFile": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\obj\\Debug\\net8.0\\compressed\\cn3dgnz1cf-9ka74thjln.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15032,7 +15032,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17977"
+          "Value": "20019"
         },
         {
           "Name": "Content-Type",
@@ -15040,11 +15040,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jmmZjQrMznd/aCyFaKO+K6A/hq2v1xGOlUeHGYT7nWg=\""
+          "Value": "\"772TsJjLt3HlA6cTvNHfB8hCP0rUDgwCkhZ97Ejn4mw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:03:58 GMT"
+          "Value": "Fri, 06 Dec 2024 08:23:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15062,7 +15062,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jmmZjQrMznd/aCyFaKO+K6A/hq2v1xGOlUeHGYT7nWg="
+          "Value": "sha256-772TsJjLt3HlA6cTvNHfB8hCP0rUDgwCkhZ97Ejn4mw="
         }
       ]
     },

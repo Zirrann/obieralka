@@ -2,6 +2,7 @@
 using Shared.Models.Dto;
 using Shared.Services;
 using System.Collections.ObjectModel;
+using System.Linq.Expressions;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
@@ -26,49 +27,92 @@ namespace Shop.BLZR.Services
             return await DeserializeResponse<IEnumerable<T>>(response);
         }
 
-        public async Task<ServiceReponse<IEnumerable<T>>> GetAllAsyncs(ProductDto filterData)
+        public async Task<ServiceReponse<IEnumerable<T>>> GetFilteredProducts(
+    ObservableCollection<ProductDto> products,
+    ObservableCollection<CategoryDto> categories,
+    ObservableCollection<StockDto> stocks,
+    ProductDto filterData,
+    ProductDto sortBy,
+    bool sortRising,
+    int pageNumber,
+    int pageSize)
         {
-            // Pobieramy odpowiedź z endpointu
-            var response = await _httpClient.GetAsync($"{_endpoint}");
+            // Połączenie produktów z kategoriami i magazynami
+            var combinedProducts = products
+                .Join(categories,
+                    p => p.CategoryId,
+                    c => c.CategoryId,
+                    (p, c) => new { Product = p, Category = c })
+                .Join(stocks,
+                    pc => pc.Product.StockId,
+                    s => s.StockId,
+                    (pc, s) => new { pc.Product, pc.Category, Stock = s })
+                .AsQueryable();
 
-            // Deserializujemy odpowiedź
-            var data = await DeserializeResponse<IEnumerable<T>>(response);
-
-            ObservableCollection<ProductDto>? products = new ObservableCollection<ProductDto>((IEnumerable<ProductDto>)data.Data);
-
-            var filteredProducts = products.AsQueryable();
-
+            // Filtracja
             if (!string.IsNullOrEmpty(filterData.Name))
             {
-                filteredProducts = filteredProducts.Where(p => p.Name.Contains(filterData.Name));
+                combinedProducts = combinedProducts.Where(x => x.Product.Name.Contains(filterData.Name));
             }
 
             if (filterData.Price.HasValue)
             {
-                filteredProducts = filteredProducts.Where(p => p.Price == filterData.Price.Value);
+                combinedProducts = combinedProducts.Where(x => x.Product.Price == filterData.Price.Value);
             }
 
-            // Filtracja po CategoryId, jeśli wartość jest podana w filterData
             if (filterData.CategoryId.HasValue)
             {
-                filteredProducts = filteredProducts.Where(p => p.CategoryId == filterData.CategoryId.Value);
+                combinedProducts = combinedProducts.Where(x => x.Product.CategoryId == filterData.CategoryId.Value);
             }
 
-            // Filtracja po StockId, jeśli wartość jest podana w filterData
             if (filterData.StockId.HasValue)
             {
-                filteredProducts = filteredProducts.Where(p => p.StockId == filterData.StockId.Value);
+                combinedProducts = combinedProducts.Where(x => x.Product.StockId == filterData.StockId.Value);
             }
 
-            var finalData = filteredProducts.Cast<T>().ToList();
+            // Sortowanie
+            if (!string.IsNullOrEmpty(sortBy.Name))
+            {
+                combinedProducts = sortRising
+                    ? combinedProducts.OrderBy(x => x.Product.Name)
+                    : combinedProducts.OrderByDescending(x => x.Product.Name);
+            }
+            else if (sortBy.Price.HasValue)
+            {
+                combinedProducts = sortRising
+                    ? combinedProducts.OrderBy(x => x.Product.Price)
+                    : combinedProducts.OrderByDescending(x => x.Product.Price);
+            }
+            else if (!string.IsNullOrEmpty(sortBy.CategoryId?.ToString()))
+            {
+                combinedProducts = sortRising
+                    ? combinedProducts.OrderBy(x => x.Category.Name)
+                    : combinedProducts.OrderByDescending(x => x.Category.Name);
+            }
+            else if (!string.IsNullOrEmpty(sortBy.StockId?.ToString()))
+            {
+                combinedProducts = sortRising
+                    ? combinedProducts.OrderBy(x => x.Stock.Quantity)
+                    : combinedProducts.OrderByDescending(x => x.Stock.Quantity);
+            }
+
+            // Stronicowanie
+            var pagedData = combinedProducts
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(x => x.Product) // Pobieramy tylko produkty
+                .Cast<T>()
+                .ToList();
 
             // Zwracamy odpowiedź z przefiltrowanymi danymi
             return new ServiceReponse<IEnumerable<T>>
             {
-                Data = finalData,
+                Data = pagedData,
                 Success = true
             };
         }
+
+
 
 
         public async Task<ServiceReponse<T>> GetByIdAsync(TKey id)
