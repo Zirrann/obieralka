@@ -90,9 +90,9 @@ else
                         <input type="text" class="form-control" value="@product.Name" @oninput="(e) => product.Name = e.Value.ToString()" />
                     </td>
                     <td>
-                        <input type="number" class="form-control" value="@product.Price"
-                        @oninput="(e) => UpdatePrice(product, e.Value.ToString())" />
-
+                        <input type="number" class="form-control"
+                               value="@((int)product.Price.GetValueOrDefault(0))"
+                               @oninput="(e) => UpdatePrice(product, e.Value.ToString())" />
                     </td>
                     <td>
                         <select class="form-control" @onchange="(e) => product.CategoryId = int.Parse(e.Value.ToString())">
