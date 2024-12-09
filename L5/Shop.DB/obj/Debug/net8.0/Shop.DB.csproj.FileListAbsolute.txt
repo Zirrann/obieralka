@@ -546,8 +546,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\bin\Debug\net8.0\Shared.dll
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\bin\Debug\net8.0\Shared.pdb
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\obj\Debug\net8.0\Shop.DB.csproj.AssemblyReference.cache
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\obj\Debug\net8.0\Shop.DB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\Shop.DB\obj\Debug\net8.0\Shop.DB.AssemblyInfoInputs.cache

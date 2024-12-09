@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_DB
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: lesweb
+      POSTGRES_DB: ShopDB
+    volumes:
+      - ./database_dump.sql:/docker-entrypoint-initdb.d/database_dump.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+  api:
+    build:
+      context: ./Shop.DB  # Ustawiamy kontekst budowania na katalog zawierający projekt API
+      dockerfile: Dockerfile  # Dockerfile w katalogu Shop.DB
+    depends_on:
+      - postgres
+    environment:
+      ConnectionStrings__DefaultConnection: Host=postgres;Database=ShopDB;Username=postgres;Password=lesweb
+    ports:
+      - "5104:8080"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./SHOP.BLZR  # Ustawiamy kontekst budowania na katalog zawierający projekt Blazor
+      dockerfile: Dockerfile  # Dockerfile w katalogu SHOP.BLZR
+    depends_on:
+      - api
+    ports:
+      - "3170:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,4 +1,5 @@
-﻿using Shared.Models;
+﻿
+using Shared.Models;
 using Shared.Services;
 
 namespace Shop.DB.Services

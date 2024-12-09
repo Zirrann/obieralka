@@ -449,15 +449,6 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
-      },
-      "Shared/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
-        }
       }
     },
     "net8.0/browser-wasm": {
@@ -907,15 +898,6 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Shared/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
         }
       }
     }
@@ -1880,11 +1862,6 @@
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Shared/1.0.0": {
-      "type": "project",
-      "path": "../Shared/Shared.csproj",
-      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1892,8 +1869,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.11",
       "Microsoft.NET.ILLink.Tasks >= 8.0.8",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.11",
-      "Shared >= 1.0.0"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.11"
     ]
   },
   "packageFolders": {
@@ -1928,11 +1904,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\Shared\\Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

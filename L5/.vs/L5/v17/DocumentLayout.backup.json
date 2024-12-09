@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\",
+  "WorkspaceRootPath": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\addproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\addproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\ja\\onedrive - politechnika warszawska\\pulpit\\nowy folder (2)\\studia\\sem 5\\pamw paum\\cos\\obieralka\\l5\\shop.blzr\\services\\orderproductservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\services\\orderproductservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\jakub\\desktop\\none\\college\\year3\\gowno obieralka\\obieralka\\l5\\shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\ja\\onedrive - politechnika warszawska\\pulpit\\nowy folder (2)\\studia\\sem 5\\pamw paum\\cos\\obieralka\\l5\\shop.blzr\\services\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\services\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|c:\\users\\ja\\onedrive - politechnika warszawska\\pulpit\\nowy folder (2)\\studia\\sem 5\\pamw paum\\cos\\obieralka\\l5\\shop.blzr\\services\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}|SHOP.BLZR\\SHOP.BLZR.csproj|solutionrelative:shop.blzr\\services\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddProducts.razor",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\AddProducts.razor",
-              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\AddProducts.razor",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\AddProducts.razor",
-              "RelativeToolTip": "SHOP.BLZR\\Pages\\AddProducts.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T19:30:16.363Z",
+              "Title": "OrderProductServiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\OrderProductServiceDto.cs",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Services\\OrderProductServiceDto.cs",
+              "ToolTip": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\OrderProductServiceDto.cs",
+              "RelativeToolTip": "SHOP.BLZR\\Services\\OrderProductServiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:59:32.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Products.razor",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
-              "RelativeDocumentMoniker": "SHOP.BLZR\\Pages\\Products.razor",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\None\\college\\year3\\gowno obieralka\\obieralka\\L5\\SHOP.BLZR\\Pages\\Products.razor",
-              "RelativeToolTip": "SHOP.BLZR\\Pages\\Products.razor",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T11:40:42.294Z"
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Services\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\Services\\IOrderService.cs",
+              "RelativeToolTip": "SHOP.BLZR\\Services\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:59:29.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "SHOP.BLZR\\Services\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Ja\\OneDrive - Politechnika Warszawska\\Pulpit\\Nowy folder (2)\\Studia\\Sem 5\\PAMW PAUM\\cos\\obieralka\\L5\\SHOP.BLZR\\Services\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "SHOP.BLZR\\Services\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:59:26.383Z",
+              "EditorCaption": ""
             }
           ]
         }

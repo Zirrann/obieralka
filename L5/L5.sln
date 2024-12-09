@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.DB", "Shop.DB\Shop.DB.csproj", "{2A79EAFC-000F-484A-81F8-E1D7E580C679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHOP.BLZR", "SHOP.BLZR\SHOP.BLZR.csproj", "{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHOP.BLZR", "SHOP.BLZR\SHOP.BLZR.csproj", "{DD41ACA5-C686-4FD5-877C-EF1D4CA9227F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{864BD9D6-A3D1-4199-BAA5-A7B2D1D91B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A79EAFC-000F-484A-81F8-E1D7E580C679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A79EAFC-000F-484A-81F8-E1D7E580C679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A79EAFC-000F-484A-81F8-E1D7E580C679}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1A6C1EB-DBA9-476D-A519-11D5098A0252}
 	EndGlobalSection
 EndGlobal

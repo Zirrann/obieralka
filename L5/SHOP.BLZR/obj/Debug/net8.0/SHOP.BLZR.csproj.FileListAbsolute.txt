@@ -1086,8 +1086,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Registry.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\mscorlib.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\netstandard.wasm
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Shared.pdb
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Shared.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\SHOP.BLZR.pdb
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\SHOP.BLZR.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm
@@ -1274,7 +1272,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Data.Common.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Metadata.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Xml.wasm.gz
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Shared.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Security.AccessControl.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.TypeExtensions.wasm.gz
@@ -1318,7 +1315,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Configuration.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm.gz
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Shared.pdb.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.wasm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.wasm.gz
@@ -1661,8 +1657,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\icudt_no_CJK.dat
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\Shared.dll
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\bin\Debug\net8.0\Shared.pdb
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\SHOP.BLZR.csproj.AssemblyReference.cache
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\SHOP.BLZR.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\SHOP.BLZR.AssemblyInfoInputs.cache
@@ -1861,7 +1855,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\mscorlib.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\netstandard.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\System.Private.CoreLib.wasm
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\Shared.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\webcil\SHOP.BLZR.wasm
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\blazor.build.boot-extension.json
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\blazor.boot.json
@@ -2077,8 +2070,6 @@ C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\v2o3mkfz4y.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cqw3yqft7w.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\pxaf9qji5u.gz
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\33l1eqsuuc.gz
-C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\ad77qsc884.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\5fbc0gtg0e.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\cjmrdgmhrm.gz
 C:\Users\Ja\OneDrive - Politechnika Warszawska\Pulpit\Nowy folder (2)\Studia\Sem 5\PAMW PAUM\cos\obieralka\L5\SHOP.BLZR\obj\Debug\net8.0\compressed\fveyapdap7.gz
